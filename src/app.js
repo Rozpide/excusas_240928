@@ -1,6 +1,5 @@
-/* eslint-disable */
 import "bootstrap";
-import "style.css";
+import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
@@ -30,6 +29,7 @@ window.onload = function() {
       cuando[cuandoIndex];
     document.getElementById("excusa").innerHTML = excusa;
   }
-  //write your code here
+
+  // Llamar a la función para generar una excusa
   generarUnaExcusa();
 };
