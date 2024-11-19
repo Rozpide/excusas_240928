@@ -1,12 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-@font-face {
-    font-family: 'Runic';
-    src: url('path/to/your/runic-font.ttf') format('truetype');
-}
+@font-face { 
+    font-family: 'Runic'; src: url('../fonts/viking_middle_runes.ttf') format('truetype');
+ }
 
 body {
-    background-color: #f8f9fa;
+    background-color: #ba4d5d;
 }
 
 #excusa {
@@ -15,10 +14,15 @@ body {
 }
 
 .btn-runic {
-    font-family: 'Runic', sans-serif;
+    font-family: 'Runic';
+    background-color: #ff6b6b;
+    color:#ff6b6b;
+    border:5px rgba(123, 8, 8, 0.703), 0.845 solid;
 }
 
+
 .btn-custom {
+    border-radius:40%;
     background: linear-gradient(45deg, #ff6b6b, #f06595);
     border: none;
     color: white;

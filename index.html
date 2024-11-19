@@ -8,35 +8,37 @@
     <link href="/src\style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid text-center mt-5">
-        <h1 class="display-4">Generador de Excusas</h1>
-        <p class="lead" id="excusa">Mi gato se comió mi trabajo de prework</p>
-        <button class="btn btn-success btn-lg btn-custom" onclick="generateExcuse()">Generar Nueva Excusa</button>
-        <img id="excuseImage" src="/src/assets/img/cesarea.jpg" class="mt-4 img-custom " alt="Excuse Image">
-        <p class="alert alert-warning mt-4">
-          <button class="btn btn-primary btn-runic" onclick="showForm()">Acceder al Formulario</button>
-      </p>
-      
-      <!-- Formulario oculto inicialmente -->
-      <div id="formContainer" style="display: none;">
-          <form>
-              <div class="form-group">
-                  <label for="name">Nombre:</label>
-                  <input type="text" class="form-control" id="name">
-              </div>
-              <div class="form-group">
-                  <label for="email">Correo Electrónico:</label>
-                  <input type="email" class="form-control" id="email">
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-      </div>
-      
-        <div class="fixed-bottom p-4">
-            Made with ❤️ by
-            <a href="#">AAAAAQQQQUUUUIIIII</a>
+    <div class="container">
+      <div class="container-fluid text-center mt-5">
+          <h1 class="display-4">Generador de Excusas</h1>
+          <p class="lead" id="excusa">Mi gato se comió mi trabajo de prework</p>
+          <button class="btn  btn-lg btn-custom" onclick="generateExcuse()">Generar Nueva Excusa</button>
+          <img id="excuseImage" src="/src/assets/img/cesarea.jpg" class="mt-4 img-custom " alt="Excuse Image">
+          <p class="alert alert-danger mt-4">
+            <button class="btn  btn-runic rounded-pill " onclick="showForm()"> ᛒᚢᛋᚲᚨᚱ ᛋᚢᛖᚱᛏᛖ</button>
+        </p>
+        
+        <!-- Formulario oculto inicialmente -->
+        <div id="formContainer" style="display: none;">
+            <form>
+                <div class="form-group">
+                    <label for="name">ᚾᛟᛗᛒᚱᛖ:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">𝕮𝖔𝖗𝖗𝖊𝖔 𝕰𝖑𝖊𝖈𝖙𝖗ó𝖓𝖎𝖈𝖔:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <button type="submit" class="btn  btn-runic rounded-pill">Enviar</button>
+            </form>
         </div>
-    </div>
+        
+          <div class="fixed-bottom p-4">
+              Made with ❤️ by
+              <a href="#">AAAAAQQQQUUUUIIIII</a>
+          </div>
+      </div>
+  </div>
     <script src="app.js"></script>
 </body>
 </html>

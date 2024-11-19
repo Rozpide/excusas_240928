@@ -43,7 +43,7 @@ document.getElementById('excuseImage').addEventListener('click', function() {
     setTimeout(() => {
         generateExcuse();
         this.classList.remove('rotate');
-    }, 500); // Duración de la animación
+    }, 10000); // Duración de la animación
 });
 
 
