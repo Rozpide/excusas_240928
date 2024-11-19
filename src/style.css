@@ -1,1 +1,64 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+    font-family: 'Runic';
+    src: url('path/to/your/runic-font.ttf') format('truetype');
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+#excusa {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.btn-runic {
+    font-family: 'Runic', sans-serif;
+}
+
+.btn-custom {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    border: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.img-custom {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-custom:hover {
+    transform: rotate(10deg) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#excuseImage {
+    border-radius: 30%;
+}
+
+/* Nueva clase para la rotación */
+.rotate {
+    animation: rotateAnimation 0.5s forwards;
+}
+
+/* Definición de la animación de rotación */
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+

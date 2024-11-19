@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Excusas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/src\style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid text-center mt-5">
+        <h1 class="display-4">Generador de Excusas</h1>
+        <p class="lead" id="excusa">Mi gato se comió mi trabajo de prework</p>
+        <button class="btn btn-success btn-lg btn-custom" onclick="generateExcuse()">Generar Nueva Excusa</button>
+        <img id="excuseImage" src="/src/assets/img/cesarea.jpg" class="mt-4 img-custom " alt="Excuse Image">
+        <p class="alert alert-warning mt-4">
+          <button class="btn btn-primary btn-runic" onclick="showForm()">Acceder al Formulario</button>
+      </p>
+      
+      <!-- Formulario oculto inicialmente -->
+      <div id="formContainer" style="display: none;">
+          <form>
+              <div class="form-group">
+                  <label for="name">Nombre:</label>
+                  <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Correo Electrónico:</label>
+                  <input type="email" class="form-control" id="email">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+      </div>
+      
+        <div class="fixed-bottom p-4">
+            Made with ❤️ by
+            <a href="#">AAAAAQQQQUUUUIIIII</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
